@@ -1,0 +1,6 @@
+# Intellij
+.idea/
+problems.iml
+
+# Maven
+target/
