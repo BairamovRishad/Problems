@@ -1,5 +1,6 @@
-package com.bairamov.arrayinterleave;
+package com.bairamov.array_interleave;
 
+import com.bairamov.arrayinter_leave.Arrays;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

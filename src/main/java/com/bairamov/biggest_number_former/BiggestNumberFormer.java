@@ -1,4 +1,4 @@
-package com.bairamov.biggestnumberformer;
+package com.bairamov.biggest_number_former;
 
 /*
 Construct the largest possible number by arranging the integers from the given array.

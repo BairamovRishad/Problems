@@ -1,4 +1,4 @@
-package com.bairamov.biggestnumberformer;
+package com.bairamov.biggest_number_former;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

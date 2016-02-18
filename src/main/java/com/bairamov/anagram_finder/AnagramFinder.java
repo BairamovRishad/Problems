@@ -1,4 +1,4 @@
-package com.bairamov.anagramfinder;
+package com.bairamov.anagram_finder;
 
 import java.util.*;
 

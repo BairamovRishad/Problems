@@ -1,4 +1,4 @@
-package com.bairamov.arraytranspose;
+package com.bairamov.array_transpose;
 
 /*
 Implement the matrix transposition function.

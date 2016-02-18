@@ -1,4 +1,4 @@
-package com.bairamov.arrayinterleave;
+package com.bairamov.arrayinter_leave;
 
 /*
 Construct a new array by interleaving two input arrays.

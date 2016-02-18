@@ -1,4 +1,4 @@
-package com.bairamov.arrayfetch;
+package com.bairamov.array_fetch;
 
 /*
 Given an array, an index, and a default value as input, return the element by that index; if no element exists with given index then return the default value.

@@ -1,4 +1,4 @@
-package com.bairamov.arraytranspose;
+package com.bairamov.array_transpose;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

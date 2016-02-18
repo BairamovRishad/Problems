@@ -1,4 +1,4 @@
-package com.bairamov.twowisemenproblem;
+package com.bairamov.two_wise_men_problem;
 
 import java.util.List;
 import java.util.stream.Collectors;

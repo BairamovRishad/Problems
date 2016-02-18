@@ -1,4 +1,4 @@
-package com.bairamov.arrayfetch;
+package com.bairamov.array_fetch;
 
 import com.bairamov.utils.ObjectUtils;
 import org.junit.Test;
