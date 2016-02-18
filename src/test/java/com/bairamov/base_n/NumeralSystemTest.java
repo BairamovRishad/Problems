@@ -1,6 +1,5 @@
-package base_n;
+package com.bairamov.base_n;
 
-import com.bairamov.base_n.NumeralSystem;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
