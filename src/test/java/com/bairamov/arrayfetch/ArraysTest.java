@@ -1,28 +1,27 @@
-package com.bairamov.arrayelementgetter;
+package com.bairamov.arrayfetch;
 
 import com.bairamov.utils.ObjectUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
-import java.util.Arrays;
 import java.util.Collection;
 
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class ArrayElementGetterTest {
+public class ArraysTest {
     private Object[] input;
     private Object expectedValue;
 
-    public ArrayElementGetterTest(Object[] input, Object expected) {
+    public ArraysTest(Object[] input, Object expected) {
         this.input = input;
         expectedValue = expected;
     }
 
     @Parameterized.Parameters
     public static Collection data() {
-        return Arrays.asList(new Object[][]{
+        return java.util.Arrays.asList(new Object[][]{
                 {new Object[]{new String[]{"a", "b", "c"}, 1, "d"}, "b"},
                 {new Object[]{new String[]{"a", "b", "c"}, 5, "d"}, "d"},
                 {new Object[]{new String[]{"a", "b", "c"}, -1, "d"}, "c"},
@@ -34,6 +33,7 @@ public class ArrayElementGetterTest {
 
     @Test
     public void testFetchElement() throws Exception {
-        assertEquals(expectedValue, new ArrayElementGetter().fetchElement(ObjectUtils.toObjectArray(input[0]), (int) input[1], input[2]));
+        assertEquals(expectedValue,
+                Arrays.fetchElement(ObjectUtils.toObjectArray(input[0]), (int) input[1], input[2]));
     }
 }
